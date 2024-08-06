@@ -1,0 +1,14 @@
+header {
+    margin-top: 16%;
+    color: aliceblue;
+}
+
+.nome {
+    color: darkorange;
+    border-color: chocolate;
+}
+
+.name::selection {
+    color:azure;
+    background-color: darkgrey;
+}
