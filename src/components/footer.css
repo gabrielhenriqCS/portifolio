@@ -1,0 +1,12 @@
+footer {
+    margin-bottom: 0;
+    padding: 20%;
+    border: 2px solid red; /* Coloquei só pra ver a questão do espaço*/
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 8;
+    justify-items: center;
+}
