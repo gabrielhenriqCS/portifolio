@@ -1,0 +1,13 @@
+article {
+    background-color: darkorange;
+    padding: 15%;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 14rem;
+    top: 30rem;
+    font-size: 30px;
+}
