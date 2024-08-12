@@ -10,4 +10,14 @@ article {
     left: 14rem;
     top: 30rem;
     font-size: 30px;
+    color: aliceblue;
+}
+
+article p {
+    font-size: x-large;
+    position: absolute;
+}
+
+img {
+    float: right;
 }
