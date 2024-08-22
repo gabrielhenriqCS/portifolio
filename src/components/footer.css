@@ -9,4 +9,5 @@ footer {
     flex-direction: row;
     gap: 8;
     justify-items: center;
+    justify-content: space-evenly;
 }

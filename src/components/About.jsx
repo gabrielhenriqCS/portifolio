@@ -5,7 +5,6 @@ function About() {
     return(
         <>
         <article>
-            <h1 className='title'>Sobre mim</h1>
             <p>Desenvolvedor Full-Stack com estudos em React, Javascript, Node e RestAPI,
                 Sempre buscando conhecimento para melhor entendimento de problemas e poder realizar as possíveis soluções.
             </p>
