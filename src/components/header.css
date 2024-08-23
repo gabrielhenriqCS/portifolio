@@ -21,11 +21,29 @@ header h1 {
 }
 
 .nome {
-    color: darkorange;
-    border-color: chocolate;
+    color: rgb(7, 247, 215);
 }
 
 .nome::selection {
-    color:azure;
-    background-color: darkgrey;
+    color: black;
+    background-color: aquamarine;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 14rem;
+    top: 20rem;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+article p {
+    font-size: x-large;
+    position: absolute;
+}
+
+img {
+    float: right;
 }

@@ -11,21 +11,21 @@ function Footer() {
         <>
             <footer>
                 <div className='social-media'>
-                    <Link href="">
-                    <Image src={instagram} width="80px"
+                    <Link href="https://www.instagram.com/gabrielhenriqcs/">
+                    <Image src={instagram} alt='Instagram' width="80px"
                         height="80px" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/gabrielhenriquecs/">
-                    <Image src={linkedin} width="100px"
+                    <Image src={linkedin} alt='Linkedin' width="100px"
                         height="30px"/>
                     </Link>
                     <Link href="https://github.com/henriquedev24">
-                    <Image src={github} width="50px"
+                    <Image src={github} alt='Github' width="50px"
                         height="50px" />
                     </Link>
-                    
+                    <p className='autor'>&copy; Criado por Gabriel Henrique. Todos os direitos reservados.</p>
                 </div>
-                <p>&copy; Criado por Gabriel Henrique. Todos os direitos reservados.</p>
+                 
             </footer>
         </>
     )

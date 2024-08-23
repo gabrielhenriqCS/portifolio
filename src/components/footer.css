@@ -1,6 +1,6 @@
 footer {
     margin-bottom: 0;
-    padding: 20%;
+    padding: 10%;
     /* border: 2px solid red;  */
 }
 
@@ -10,4 +10,10 @@ footer {
     gap: 8;
     justify-items: center;
     justify-content: space-evenly;
+    margin-bottom: 5rem;
 }
+
+.social-media p {
+    bottom: 15px;
+}
+
