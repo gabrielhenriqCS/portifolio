@@ -1,5 +1,6 @@
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
+import Projetos from '../components/Projetos.jsx' 
 import "./globals.css";
 
 export default function Home() {
@@ -8,6 +9,9 @@ export default function Home() {
       <main>
         <section>
           <Header />
+        </section>
+        <section>
+          <Projetos />
         </section>
         <section>
           <Footer />
