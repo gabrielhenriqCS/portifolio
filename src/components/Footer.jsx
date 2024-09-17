@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 
-function Footer() {
+export default function Footer() {
     return (
         <>
             <footer>
@@ -31,4 +31,3 @@ function Footer() {
     )
 }
 
-export default Footer

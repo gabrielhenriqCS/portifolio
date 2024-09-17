@@ -7,3 +7,10 @@ body {
     background: radial-gradient(circle, rgba(244,184,16,1) 7%, rgba(128,128,128,1) 100%);
 }
 
+.projects {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+   
+}
+

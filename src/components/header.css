@@ -42,8 +42,23 @@ header h1 {
 article p {
     font-size: x-large;
     position: absolute;
+    
 }
 
 img {
     float: right;
 }
+
+.file-curriculo {  
+    margin-top: 80px;
+    padding: 12px;
+    border-radius: 15rem;
+    border: none;
+    width: 180px;
+    font-size: medium;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+

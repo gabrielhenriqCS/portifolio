@@ -3,6 +3,7 @@ import Footer from '../components/Footer.jsx'
 import Projetos from '../components/Projetos.jsx' 
 import "./globals.css";
 
+
 export default function Home() {
   return (
     <body>
@@ -10,7 +11,7 @@ export default function Home() {
         <section>
           <Header />
         </section>
-        <section>
+        <section className='projects'>
           <Projetos />
         </section>
         <section>
