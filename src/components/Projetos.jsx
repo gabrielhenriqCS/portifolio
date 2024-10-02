@@ -1,28 +1,59 @@
 import "./projetos.css";
+import Image from "next/image";
 
 function VideoDrip() {
 	return (
-		<video muted width="35" height="24" autoPlay loop>
-			<source src="../assets/dripstorevideo.mp4" type="video/mp4" />
-		</video>
+		<video
+			src="/dripvideo.mp4"
+			autoPlay
+			loop
+			muted
+			playsInline
+			controls={false}
+			className="video"
+		/>
 	);
 }
-
-export default function Projetos() {
+function VideoFaster() {
 	return (
-		<>
-			<div className="project">
-				<legend className="titulo">Dripstore</legend>
-				<VideoDrip />
-			</div>
-			<div className="project">
-				<legend className="titulo">Fórmulario de Pedidos</legend>
-				<VideoDrip />
-			</div>
-			<div className="project">
-				<legend className="titulo">Página de cadastro</legend>
-				<VideoDrip />
-			</div>
-		</>
+		<video
+			src="/fastervideo.mp4"
+			autoPlay
+			loop
+			muted
+			playsInline
+			controls={false}
+			className="video"
+		/>
 	);
 }
+function VideoCad() {
+	return (
+	  <Image
+		src="/paginacadastro.png"
+		alt="Página de cadastro"
+		width={3000} 
+		height={1000} 
+		className="video"
+	  />
+	);
+  }
+  
+  export default function Projetos() {
+	return (
+	  <>
+		<div className="project">
+		  <legend className="titulo">Dripstore</legend>
+		  <VideoDrip />
+		</div>
+		<div className="project">
+		  <legend className="titulo">Site logístico</legend>
+		  <VideoFaster />
+		</div>
+		<div className="project">
+		  <legend className="titulo">Página de cadastro</legend>
+		  <VideoCad />
+		</div>
+	  </>
+	);
+  }

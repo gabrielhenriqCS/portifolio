@@ -1,14 +1,15 @@
 import "./header.css";
-import { Button } from "@nextui-org/button";
-import {CurriculoBaixar} from "@/assets/curriculo-file";
 
-function Curriculo(){
+
+function Curriculo() {
 	return (
 		<div>
-      <Button className="file-curriculo" color="primary">
-       Currículo
-      </Button>    
-    </div>
+			<a href="/Currículo Tech.pdf" target="_blank" rel="noopener noreferrer">
+				<button className="file-curriculo">
+					Currículo
+				</button>    
+				</a>
+		</div>
 	)
 }
 
@@ -19,7 +20,7 @@ export default function Header() {
 				<h3>
 					Olá, me chamo <span className="nome">Gabriel Henrique</span>
 				</h3>
-				<h1>Sou Desenvolvedor Full-Stack Júnior</h1>
+				<h1 className="titulo">Sou Desenvolvedor Full-Stack Júnior</h1>
 				<article>
 					<p>
 						Desenvolvedor Full-Stack com estudos em React, Javascript, Node e
@@ -27,9 +28,9 @@ export default function Header() {
 						problemas e poder realizar as possíveis soluções.
 					</p>
 				</article>
-				<Curriculo/>
+				<Curriculo />
 			</header>
-           
+
 		</>
 	);
 }
