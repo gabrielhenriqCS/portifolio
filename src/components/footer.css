@@ -6,9 +6,9 @@ footer {
 .social-media {
     display: flex;
     flex-direction: row;
-    gap: 8;
-    justify-items: center;
+    gap: 8px;
     justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 5rem;
 }
 
@@ -19,30 +19,34 @@ footer {
 
 .social-media p {
     bottom: 15px;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
 }
 
 @media (max-width: 425px) {
     footer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-
+        justify-content: flex-start;
     }
 
     .social-media {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     .logo {
         width: 30px;
         height: 30px;
-        gap: 5;
+        gap: 5px;
     }
 
     .social-media p {
         font-size: 12px;
-        margin-left: 10px;
-        text-wrap: nowrap;
+        margin-top: 5px;
+        text-align: center;
+        position: static;
     }
 }
