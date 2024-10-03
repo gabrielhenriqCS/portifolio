@@ -12,20 +12,17 @@ export default function Footer() {
             <footer>
                 <div className='social-media'>
                     <Link href="https://www.instagram.com/gabrielhenriqcs/">
-                    <Image src={instagram} alt='Instagram' width="80px"
-                        height="80px" />
+                        <Image className='logo' src={instagram} alt='Instagram' />
                     </Link>
                     <Link href="https://www.linkedin.com/in/gabrielhenriquecs/">
-                    <Image src={linkedin} alt='Linkedin' width="100px"
-                        height="30px"/>
+                        <Image className='logo' src={linkedin} alt='Linkedin' />
                     </Link>
                     <Link href="https://github.com/henriquedev24">
-                    <Image src={github} alt='Github' width="50px"
-                        height="50px" />
+                        <Image className='logo' src={github} alt='Github' />
                     </Link>
                     <p className='autor'>&copy; Criado por Gabriel Henrique. Todos os direitos reservados.</p>
                 </div>
-                 
+
             </footer>
         </>
     )

@@ -50,14 +50,25 @@ img {
 
 @media (max-width: 768px) {
     header {
-        margin: 5%; 
+        margin: 10%; 
     }
 
+    header h3 {
+        font-size: 15px;
+    }
     header h1 {
-        font-size: 30px; 
+        font-size: 35px;
+        margin: 5px 0; 
     }
 
     article p {
         font-size: large; 
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .file-curriculo {
+        font-size: small;
+        padding: 8px;
     }
 }

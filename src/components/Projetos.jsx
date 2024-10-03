@@ -41,7 +41,7 @@ function VideoCad() {
   
   export default function Projetos() {
 	return (
-	  <>
+	  <div className="projects">
 		<div className="project">
 		  <legend className="titulo">Dripstore</legend>
 		  <VideoDrip />
@@ -54,6 +54,6 @@ function VideoCad() {
 		  <legend className="titulo">Página de cadastro</legend>
 		  <VideoCad />
 		</div>
-	  </>
+	  </div>
 	);
   }
