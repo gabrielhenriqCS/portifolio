@@ -1,7 +1,6 @@
 import Header from '../components/Header/Header.jsx'
 import Footer from '../components/Footer/Footer.jsx'
 import Projetos from '../components/Projetos/Projetos.jsx' 
-import Skills from '../components/Skills.jsx'
 import "./globals.css";
 
 export default function Home() {
