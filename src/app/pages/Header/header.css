@@ -13,33 +13,32 @@ header {
 header h3 {
     width: 100%; 
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 header h1 {
     display: inline;
-    font-size: 50px;
+    font-size: 40px;
     margin: 10px 0; 
 }
 
 .nome {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 136, 0);
 }
 
 .nome::selection {
-    color: black;
+    color: rgb(4, 137, 245);
     background-color: aquamarine;
 }
 
 article {
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px auto; 
     text-align: center;
     padding: 20px;
     line-height: 1.5;
     max-width: 1500px;
-    color: black;
-    background-color: rgb(10, 221, 236);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
@@ -48,14 +47,15 @@ img {
 }
 
 .file-curriculo {  
-    margin-top: 10px;
-    padding: 12px;
+    margin-top: 8%;
+    padding: 1rem;
     border-radius: 15rem;
     border: none;
-    width: 180px;
-    font-size: large;
+    background-color: azure;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
-    font-weight: bolder;
 }
 
 @media (max-width: 768px) {

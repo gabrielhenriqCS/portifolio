@@ -11,13 +11,13 @@ export default function Footer() {
         <>
             <footer>
                 <div className='social-media'>
-                    <Link href="https://www.instagram.com/biel.henriqz/">
+                    <Link href="https://www.instagram.com/biel.henriqz/" aria-label='Perfil do Instagram de Gabriel Henrique'>
                         <Image className='logo' src={instagram} alt='Instagram' />
                     </Link>
-                    <Link href="https://www.linkedin.com/in/gabrielhenriquecs/">
+                    <Link href="https://www.linkedin.com/in/gabrielhenriquecs/" aria-label='Perfil do Linkedin do Gabriel Henrique'>
                         <Image className='logo' src={linkedin} alt='Linkedin' />
                     </Link>
-                    <Link href="https://github.com/gabrielhenriqCS">
+                    <Link href="https://github.com/gabrielhenriqCS" aria-label='Perfil do Github do Gabriel Henrique'>
                         <Image className='logo' src={github} alt='Github' />
                     </Link>
                     <p className='autor'>&copy; Criado por Gabriel Henrique. Todos os direitos reservados.</p>
