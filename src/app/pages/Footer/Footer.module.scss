@@ -1,0 +1,58 @@
+@use '../../styles/variables' as *;
+
+.footer {
+  margin-bottom: 0;
+  padding: 5%;
+
+  .social_media {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+
+    .logo {
+      width: 45px;
+      height: 45px;
+    }
+
+    p {
+      bottom: 15px;
+      position: relative;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .autor {
+      color: $text-light;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .logo {
+      width: 30px;
+      height: 30px;
+      gap: $spacing-sm;
+    }
+
+    p {
+      font-size: 0.75rem;
+      margin-top: $spacing-sm;
+      text-align: center;
+      position: static;
+    }
+  }
+}

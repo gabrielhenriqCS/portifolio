@@ -1,8 +1,7 @@
-import "./globals.css";
-
+import "./globals.scss";
 
 export const metadata = {
-  title: "Gabriel Henique",
+  title: "Gabriel Henrique",
   description: "Desenvolvedor Full-Stack em formação",
 };
 

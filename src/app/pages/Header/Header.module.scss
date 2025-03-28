@@ -1,0 +1,78 @@
+@use '../../styles/variables' as *;
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12%;
+  color: $text-light;
+  padding: 0; 
+  text-align: center;
+  gap: $spacing-sm;
+
+  h3 {
+    width: 100%; 
+    margin-bottom: $spacing-md;
+    font-size: 1.25rem;
+  }
+
+  h1 {
+    display: inline;
+    font-size: 2.5rem;
+    margin: $spacing-md 0; 
+  }
+
+  .nome {
+    color: $accent;
+
+    &::selection {
+      color: rgb(4, 137, 245);
+      background-color: aquamarine;
+    }
+  }
+
+  article {
+    font-size: 1.25rem;
+    margin: $spacing-lg auto; 
+    padding: $spacing-lg;
+    line-height: 1.5;
+    max-width: 1500px;
+    color: $text-light;
+    border-radius: 10px;
+  }
+
+  .file-curriculo {  
+    margin-top: 8%;
+    padding: $spacing-md;
+    border-radius: 15rem;
+    border: none;
+    background-color: $text-light;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .header {
+    margin: 10%; 
+  }
+
+  .header h3 {
+    font-size: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 2.2rem;
+  }
+
+  .header article p {
+    font-size: 1rem;
+  }
+
+  .file-curriculo {
+    font-size: 1rem;
+    padding: $spacing-sm;
+  }
+}

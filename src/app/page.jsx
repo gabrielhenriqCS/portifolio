@@ -1,16 +1,12 @@
-import Header from '../app/pages/Header/Header'
-import Footer from '../app/pages/Footer/Footer'
-import "./globals.css";
+import Header from "../app/pages/Header/Header";
+import Footer from "../app/pages/Footer/Footer";
+import style from"./page.module.scss";
 
 export default function Home() {
   return (
-      <main>
-        <section>
-          <Header />
-        </section>
-        <section>
-          <Footer />
-        </section>
+    <main className={style.main}>
+      <Header />
+      <Footer />
     </main>
   );
 }
