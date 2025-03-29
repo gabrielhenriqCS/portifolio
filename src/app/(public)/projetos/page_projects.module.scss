@@ -1,0 +1,12 @@
+@use '../../styles/mixins' as mix;
+
+.page_projects {
+    @include mix.flex-center;
+    flex-direction: column;
+    gap: 0;
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+
+    }
+}

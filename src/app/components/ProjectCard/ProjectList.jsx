@@ -1,26 +1,27 @@
-import style from "./Projetos.module.scss"
-import { projects } from "./data"
-import { Card, CardHeader, CardBody } from '@heroui/card';
+import style from "./Projetos.module.scss";
+import { projects } from "./data";
+import { Card, CardHeader, CardBody } from "@heroui/card";
 import Image from "next/image";
 
-
 export default function ProjectList() {
-	const listProjects = projects.map(project =>
-		<>
-			<Card className={style.project}>
-			<CardHeader className={style.title}>
-				<h4>{project.title}</h4>
-			</CardHeader>
-			<CardBody>
-				<Image
-					alt={project.acessAlt}
-					className={style.image_project}
-					src={project.imageSrc}
-						width={project.width}
-					height={project.height}/>
-			</CardBody>
-			</Card>
-			</>
-	)
-	return listProjects
+  return (
+    <div className={style.projectsContainer}>
+      {projects.map((project) => (
+        <Card key={project.title} className={style.project}>
+          <CardHeader className={style.title}>
+            <h4>{project.title}</h4>
+          </CardHeader>
+          <CardBody className={style.cardBody}>
+            <Image
+              src={project.imageSrc}
+              alt={project.acessAlt}
+              width={project.width}
+              height={project.height}
+              className={style.image_project}
+            />
+          </CardBody>
+        </Card>
+      ))}
+    </div>
+  );
 }

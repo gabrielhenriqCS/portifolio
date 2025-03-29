@@ -1,11 +1,19 @@
 @use '../../styles/variables' as *;
 
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+
+
 .project {
   display: block;
-  margin: 10rem $spacing-md;
+  margin: 3rem $spacing-md;
   padding: $spacing-lg;
   border-radius: 15px;
-  max-width: 100%;
+  max-width: 80%;
   text-align: center;
   font-size: 1.5rem;
   z-index: 0;
@@ -13,7 +21,7 @@
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 
   .title {
-    color: brown;
+    color: $text-light;
     margin: $spacing-md;
     z-index: 3;
     font-weight: bolder;
@@ -28,16 +36,12 @@
 }
 
 @media (max-width: $breakpoint-mobile) {
-  .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  .projectsConatainer {
     padding: $spacing-sm;
   }
 
-  .title {
-    font-size: 1.25rem;
-    margin-top: 0;
+  .project {
+    margin: 1rem 0;
+    padding: $spacing-md;
   }
 }

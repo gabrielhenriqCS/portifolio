@@ -1,4 +1,5 @@
 import "./globals.scss";
+import NavBar from './components/NavBar/NavBar';
 
 export const metadata = {
   title: "Gabriel Henrique",
@@ -9,7 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body>
-        {children}
+        <NavBar/>
+        <main>{children}</main>
       </body>
     </html>
   );

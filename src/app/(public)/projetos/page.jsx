@@ -1,4 +1,4 @@
-import style from "./page_projects.scss";
+import style from "./page_projects.module.scss";
 import ProjectList from "../../components/ProjectCard/ProjectList";
 
 
