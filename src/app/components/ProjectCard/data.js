@@ -1,3 +1,4 @@
+
 export const projects = [
   {
     title: "Dripstore",
@@ -20,4 +21,8 @@ export const projects = [
     width: 500,
     height: 250,
   },
+  {
+    title: "Página de procurar perfil do Github",
+    acessAlt: "Página de procurar perfil do Github",
+  }
 ];

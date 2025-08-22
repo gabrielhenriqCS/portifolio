@@ -9,10 +9,8 @@ export default function Header() {
       <h1 className={style.titulo}>Desenvolvedor Full-Stack</h1>
       <article className={style.descricao}>
         <p>
-          Desenvolvedor com conhecimentos em HTML, CSS, JavaScript, ReactJS, NodeJS, MySQL e PostgreSQL. 
-          Com formação técnica em Redes de Computadores, atualmente cursando Análise e Desenvolvimento 
-          de Sistemas, busco minha primeira oportunidade na área para fins de aperfeiçoamento como um 
-          bom profissional de tecnologia.
+          Estudante de Análise de Sistemas, apaixonado por tecnologia e
+          desenvolvimento web. Tenho experiência em projetos de front-end e back-end usando Reactjs, TypeScript, Nodejs com ExpressJS, TailwindCSS, além de ter conhecimentos em bancos de dados SQL. Sempre buscando aprender novas tecnologias e aprimorar minhas habilidades, através da prática em projetos reais e desafios que desafiam meu conhecimento.
         </p>
       </article>
     </header>
